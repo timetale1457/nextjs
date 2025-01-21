@@ -19,20 +19,19 @@ export default function RootLayout({
         <header>
           <h1>Web Tutorial Project</h1>
         </header>
-        <nav>
-            <Link href="/Link/1">Link 1</Link>
-            <Link href="/Link/2">Link 2</Link>
-            <Link href="/Link/3">Link 3</Link>
-            <Link href="/Link/4">Link 4</Link>
+        <nav className="nav">
+          <ul>
+            <li><Link className="menu-link" href="/Link/1">Link 1</Link></li>
+            <li><Link className="menu-link" href="/Link/2">Link 2</Link></li>
+            <li><Link className="menu-link" href="/Link/3">Link 3</Link></li>
+            <li><Link className="menu-link" href="/Link/4">Link 4</Link></li>
+            <li><Link className="menu-link" href="/Link/5">Link 5</Link></li>
+          </ul>
         </nav>
-        <aside>
-          <p>aside</p>
-        </aside>
         <main>
-          <article>
-              article
-          </article>
-          {children}
+          <section>
+            {children}
+          </section>
         </main>
         <footer>
           <p>Footer</p>

@@ -1,5 +1,6 @@
-h1.title a {
-  text-decoration: none;
+html {
+  background-color: #E1DCD9; /* Change to desired background color */
+  height: 100%;
 }
 
 header {
@@ -23,12 +24,6 @@ footer {
   width: 100%;
 }
 
-nav {
-  background-color: #A67F78;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
-}
 
 body {
   margin: 0;
@@ -36,7 +31,48 @@ body {
   height: 100%;
 }
 
-html {
-  background-color: #E1DCD9; /* Change to desired background color */
-  height: 100%;
+
+
+.nav {
+  margin: 0 auto;
+  height: 30px;
+  width: 850px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav ul li {
+  list-style: none;
+  color: white;
+  background-color: #2d2d2d;
+  float: left;
+  line-height: 30px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav .menu-link {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 150px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Dotum, Arial;
+}
+
+.nav .menuLink:hover {
+  color: red;
+  background-color: #4d4d4d;
+}
+
+h1.title a {
+  text-decoration: none;
 }
