@@ -1,0 +1,16 @@
+{
+    "create_qry": [
+        [
+            "CREATE TABLE IF NOT EXISTS tb_users (",
+            "id INT AUTO_INCREMENT PRIMARY KEY,",
+            "name VARCHAR(255),",
+            "email VARCHAR(255),",
+            "password VARCHAR(255),", 
+            "created_time VARCHAR(17),",
+            "updated_time VARCHAR(17);"
+        ],
+        [
+            
+        ]
+    ]
+}

@@ -21,7 +21,7 @@ export default function RootLayout({
         </header>
         <nav className="nav">
           <ul>
-            <li><Link className="menu-link" href="/Link/1">Link 1</Link></li>
+            <li><Link className="menu-link" href="/display">Display</Link></li>
             <li><Link className="menu-link" href="/Link/2">Link 2</Link></li>
             <li><Link className="menu-link" href="/Link/3">Link 3</Link></li>
             <li><Link className="menu-link" href="/Link/4">Link 4</Link></li>
